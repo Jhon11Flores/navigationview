@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_activo"
+            android:icon="@drawable/ic_activo1"
+            android:title="Activo" />
+        <item
+            android:id="@+id/menu_agregar"
+            android:icon="@drawable/ic_agregar"
+            android:title="Agregar un estado" />
+        <item
+            android:id="@+id/menu_todos"
+            android:icon="@drawable/ic_recibidos"
+            android:title="Todos los recibidos" />
+        <item
+            android:id="@+id/menu_principal"
+            android:icon="@drawable/ic_pricipal"
+            android:title="Principal" />
+        <item
+            android:id="@+id/menu_promociones"
+            android:icon="@drawable/ic_promociones"
+            android:title="Promociones" />
+        <item
+            android:id="@+id/menu_social"
+            android:icon="@drawable/ic_social"
+            android:title="Social" />
+        <item
+            android:id="@+id/menu_notificaciones"
+            android:icon="@drawable/ic_notificaciones"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/menu_foros"
+            android:icon="@drawable/ic_foros"
+            android:title="Foros" />
+
+    </group>
+    <item
+        android:id="@+id/navigation_etiquetas"
+        android:title="Todas las etiquetas">
+        <menu>
+            <item
+                android:id="@+id/menu_destacados"
+                android:icon="@drawable/ic_destacados"
+                android:title="Destacados" />
+            <item
+                android:id="@+id/menu_pospuestos"
+                android:icon="@drawable/ic_pospuestos"
+                android:title="Pospuestos" />
+            <item
+                android:id="@+id/menu_importantes"
+                android:icon="@drawable/ic_importantes"
+                android:title="Importantes" />
+            <item
+                android:id="@+id/menu_enviados"
+                android:icon="@drawable/ic_enviados"
+                android:title="Enviados" />
+            <item
+                android:id="@+id/menu_programados"
+                android:icon="@drawable/ic_programados"
+                android:title="Programados" />
+            <item
+                android:id="@+id/menu_salida"
+                android:icon="@drawable/ic_salida"
+                android:title="Bandeja de Salida" />
+        </menu>
+    </item>
+</menu>
